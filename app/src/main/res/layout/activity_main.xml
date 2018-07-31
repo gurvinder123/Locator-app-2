@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.phoenix.requestdatabase.MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/retro">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="50">
+
+        <TextView
+            android:id="@+id/lati"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitude:"
+            android:background="@drawable/roundedbutton"
+            android:textSize="14sp"
+            android:padding="12dp"
+            android:layout_weight="5"
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+            android:textColor="#e9ebec"
+            android:fontFamily="casual"/>
+
+        <TextView
+            android:id="@+id/longi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude:"
+            android:fontFamily="casual"
+            android:layout_weight="5"
+            android:textSize="14sp"
+            android:layout_margin="8dp"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:textColor="#e9ebec"
+            android:background="@drawable/roundedbutton"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="3"
+            android:background="#2F4F4F">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/roundedbutton">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bus Number"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:fontFamily="serif-monospace"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonid"
+
+        />
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:fontFamily="serif-monospace"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:background="#ffffff"
+        android:textColor="#b92e2e"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:id="@+id/buttoni"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
